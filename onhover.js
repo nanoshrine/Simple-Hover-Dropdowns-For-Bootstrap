@@ -18,10 +18,10 @@ jQuery(document).ready(function ($) {
     } else {
 
         $('.dropdown').hover(function () {
-            $(this).toggleClass('open'); // Adds Hover Open Class
+            $(this).toggleClass('open'); // Add Hover Open Class
         });
         $('.dropdown').click(function () {
-            $(this).removeClass('open'); // Removes Click Open Class
+            $(this).removeClass('open'); // Remove Click Open Class
         });
 
     }
